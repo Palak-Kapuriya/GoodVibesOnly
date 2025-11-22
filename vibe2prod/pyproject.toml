@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibe2prod"
+version = "0.1.0"
+description = "Turn vibe-coded Python into commented, production-ready code."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "black",
+  "ruff",
+  "libcst>=1.0.0",
+]
+
+
+
+[project.scripts]
+vibe2prod = "vibe2prod.cli:main"

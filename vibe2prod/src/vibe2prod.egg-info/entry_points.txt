@@ -1,0 +1,2 @@
+[console_scripts]
+vibe2prod = vibe2prod.cli:main

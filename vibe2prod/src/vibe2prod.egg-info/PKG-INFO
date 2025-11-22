@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: vibe2prod
+Version: 0.1.0
+Summary: Turn vibe-coded Python into commented, production-ready code.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: black
+Requires-Dist: ruff
+Requires-Dist: libcst>=1.0.0
+Dynamic: license-file
+
+# vibe2prod
+
+Turn vibe-coded Python into commented and production-ready code.
+
+## Usage
+pip install -e .
+vibe2prod examples/vibe_code_example.py
